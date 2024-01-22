@@ -67,19 +67,18 @@ public class Ulammoments {
 
     private static String processCuisineChoice(String choice) {
         if (choice.equals("a")) {
+            counter++; // Increment counter
             return "Adobo";
-            counter++; // Increment counter
         } else if (choice.equals("b")) {
+            counter++; // Increment counter
             return "Itlog";
-            counter++; // Increment counter
         } else if (choice.equals("c")) {
-            return "Sinigang";
             counter++; // Increment counter
+            return "Sinigang";
         } else {
             System.out.println("NOT ULAM!");
             counter++; // Increment counter
             return "";
-            counter++; // Increment counter
         }
     }
 

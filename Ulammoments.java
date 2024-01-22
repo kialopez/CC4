@@ -59,18 +59,16 @@ public class Ulammoments {
     }
 
     private static String processCuisineChoice(String choice) {
-        switch (choice) {
-            case "a":
-                return "Adobo";
-            case "b":
-                return "Itlog";
-            case "c":
-                return "Sinigang";
-            case "d":
-            default:
-                System.out.println("Invalid Input");
-                counter++; // Increment counter
-                return "";
+        if (choice.equals("a")) {
+            return "Adobo";
+        } else if (choice.equals("b")) {
+            return "Itlog";
+        } else if (choice.equals("c")) {
+            return "Sinigang";
+        } else {
+            System.out.println("NOT ULAM!");
+            counter++; // Increment counter
+            return "";
         }
     }
 

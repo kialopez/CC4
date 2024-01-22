@@ -36,7 +36,7 @@ public class Ulammoments {
                 "Enjoy your homemade ulam for lunch.",
                 "If you liked the dish, consider adding it to your favorites.",
                 "Clean up the kitchen after cooking.",
-                "Finish the food and continue whatever im doing with a happy tummy.");
+                "Finish the food and continue whatever Im doing with a happy tummy.");
                 counter += 10; // Increment counter by the number of steps
 
         scanner.close();
